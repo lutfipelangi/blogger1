@@ -4223,17 +4223,17 @@ body#layout #outer-wrapper,body#layout .row{
  body#layout .theme-options,body#layout #main-menu .widget{
     display:block!important
 }
- body#layout div.sora-panel{
+ body#layout div.kiospelangi-panel{
     background-color:#d7d7d7!important;
     overflow:hidden!important;
     border-color:#bcbcbc
 }
- body#layout .sora-panel .widget{
+ body#layout .kiospelangi-panel .widget{
     float:left;
     width:49%;
     margin-right:2%
 }
- body#layout .sora-panel #LinkList71{
+ body#layout .kiospelangi-panel #LinkList71{
     margin-right:0
 }
  body#layout #top-bar{
@@ -4539,7 +4539,7 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 
 <!-- Theme Options -->
   <div class='theme-options' style='display:none'>
-    <b:section class='sora-panel' id='sora-panel' maxwidgets='1' name='Theme Options' showaddelement='no'>
+    <b:section class='kiospelangi-panel' id='kiospelangi-panel' maxwidgets='1' name='Theme Options' showaddelement='no'>
       <b:widget id='LinkList70' locked='true' title='Css Options' type='LinkList' version='2' visible='true'>
         <b:widget-settings>
           <b:widget-setting name='sorting'>NONE</b:widget-setting>
@@ -4855,9 +4855,9 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
  <b:section id='home-ad-top1' maxwidgets='1' name='Home Ads Top' showaddelement='yes'>
    <b:widget id='HTML21' locked='false' title='Ad Code' type='HTML' visible='true'>
      <b:widget-settings>
-       <b:widget-setting name='content'><![CDATA[<a class="sora-ads-full" href="javascript:;">Responsive Advertisement</a>
+       <b:widget-setting name='content'><![CDATA[<a class="kiospelangi-ads-full" href="javascript:;">Responsive Advertisement</a>
 <style>
-.sora-ads-full {
+.kiospelangi-ads-full {
   display: block;
     background-color: #eee;
     text-align: center;
