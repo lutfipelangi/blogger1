@@ -3766,7 +3766,13 @@ z-index: 4;
         height:60px
     }
 }
-
+/* Fix Gambar Hilang Setelah Hapus Script Obfuscated */
+.post-thumb, 
+.item-post .post-body img, 
+.about-author .author-avatar {
+    opacity: 1 !important;
+    transition: none !important;
+}
 ]]></b:skin>
 <style>
 /*-------Typography and ShortCodes-------*/
